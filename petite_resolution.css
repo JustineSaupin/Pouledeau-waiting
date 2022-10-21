@@ -1,0 +1,54 @@
+@import  "//fonts.googleapis.com/css?family=Montserrat";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+
+/*a,a:visited,a:active,a:hover {
+  color: #FFF;
+  text-decoration: underline;
+}*/
+
+/*.loading-state {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}*/
+
+.container {
+  width: 100%;
+}
+
+.cards1 {
+  display: none;
+}
+
+.cards2 {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  margin-bottom: 22px;
+}
+
+.card-white img {
+  height: 100px;
+  width: auto;
+  margin: auto;
+}
+
+.projet {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+
+h1 {
+  font-size: 3rem;
+}
+
+
+h3 {
+  font-size: 1.8rem;
+}
+
+
