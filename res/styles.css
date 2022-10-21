@@ -1,0 +1,124 @@
+@import  "//fonts.googleapis.com/css?family=Montserrat";
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  background-color: #152428;
+}
+
+/*a,a:visited,a:active,a:hover {
+  color: #FFF;
+  text-decoration: underline;
+}*/
+
+/*.loading-state {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}*/
+
+.container {
+  height: 100vh;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "Montserrat",sans-serif;
+  font-size: 14px;
+  color: #F5EDED;
+}
+
+.cards {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.card-white img {
+  height: 160px;
+  width: auto;
+  margin: auto;
+}
+
+.text-wrapper {
+  justify-content: center;
+  align-items: center;
+  width: 65vw;
+  margin: auto;
+}
+
+.projet {
+  display: flex;
+  margin: auto;
+  font-weight: lighter;
+  list-style: none;
+}
+
+.card-desc{
+    padding: 20px;
+    margin: auto;
+    background-color: #1C3035;
+    border-radius: 25px;
+    margin: 12px;
+    width: 100%;
+}
+
+
+
+h1 {
+  font-size: 4rem;
+  font-family: 'Amatic SC', cursive;
+  margin: 0;
+  padding-top: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: lighter;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2rem;
+  font-family: 'Amatic SC', cursive;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+  padding-top: 22px;
+
+}
+
+.contact p {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+button {
+  background-color: #c0695c;
+  color: #F5EDED;
+  font-family: 'Amatic SC';
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 12px 22px;
+  border-style: none;
+  border-radius: 12px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #B05145;
+  color: #F5EDED;
+  box-shadow: rgba(0, 0, 0, 0.5) 1.95px 1.95px 2.6px;
+}
