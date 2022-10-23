@@ -1,5 +1,4 @@
-@import  "//fonts.googleapis.com/css?family=Montserrat";
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:wght@300&display=swap');
 
 html {
   height: 100%;
@@ -49,6 +48,18 @@ body {
   height: 160px;
   width: auto;
   margin: auto;
+}
+
+.card1 {
+  visibility: hidden;
+}
+
+.card2 {
+  visibility: hidden;
+}
+
+.card3{
+  visibility: hidden;
 }
 
 .text-wrapper {
@@ -128,4 +139,59 @@ h3 {
   background-color: #B05145;
   color: #F5EDED;
   box-shadow: rgba(0, 0, 0, 0.5) 1.95px 1.95px 2.6px;
+}
+
+.slideDown {
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;
+
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+
+  visibility: visible !important;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+  }
+  /*50%{
+    transform: translateY(5%);
+  }*/
+  /*65%{
+    transform: translateY(-3%);
+  }
+  80%{
+    transform: translateY(5%);
+  }*/
+  /*95%{
+    transform: translateY(-3%);
+  }*/
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+  }
+  /*50%{
+    -webkit-transform: translateY(8%);
+  }
+  65%{
+    -webkit-transform: translateY(-4%);
+  }
+  80%{
+    -webkit-transform: translateY(4%);
+  }
+  95%{
+    -webkit-transform: translateY(-2%);
+  }*/
+  100% {
+    -webkit-transform: translateY(0%);
+  }
 }

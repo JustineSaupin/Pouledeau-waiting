@@ -20,15 +20,15 @@
       <div class="container">
         <div class="cards1">
           <!-- card -->
-          <div class="card-white">
+          <div class="card-white card1">
             <img src="res/LogoColiv.png" alt="">
           </div>
           <!-- card -->
-          <div class="card-white">
+          <div class="card-white card2">
             <img src="res/LogoHome.png" alt="">
           </div>
           <!-- card -->
-          <div class="card-white">
+          <div class="card-white card3">
             <img src="res/LogoCowork.png" alt="">
           </div>
         </div>
@@ -40,15 +40,15 @@
           </div>
           <div class="cards2">
           <!-- card -->
-          <div class="card-white">
+          <div class="card-white card21">
             <img src="res/LogoColiv.png" alt="">
           </div>
           <!-- card -->
-          <div class="card-white">
+          <div class="card-white card22">
             <img src="res/LogoHome.png" alt="">
           </div>
           <!-- card -->
-          <div class="card-white">
+          <div class="card-white card23">
             <img src="res/LogoCowork.png" alt="">
           </div>
         </div>
@@ -63,7 +63,7 @@
                   <ul>du terrain</ul>
                   <ul>travaux ou non</ul>
                   <ul>Dépendances ou possibilité de créer un espace de travail</ul>
-                  <ul>Secteur Plogoff à Plozevet</ul>
+                  <ul>Secteur plogoff à plozevet</ul>
                 </li>
             </div>
           </div>
@@ -86,5 +86,36 @@
       ga('create', 'UA-1858235-15', 'auto');
       ga('send', 'pageview');
     </script> -->
+    <script>
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+        document.querySelector('.card1').classList.add('slideDown');
+        }, 1500);
+        setTimeout(function() {
+        document.querySelector('.card2').classList.add('slideDown');
+        }, 1250);
+        setTimeout(function() {
+        document.querySelector('.card3').classList.add('slideDown');
+        }, 1000);
+        }, false);
+
+document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+        document.querySelector('.card21').classList.add('slideDown');
+        }, 1000);
+        setTimeout(function() {
+        document.querySelector('.card22').classList.add('slideDown');
+        }, 1250);
+        setTimeout(function() {
+        document.querySelector('.card23').classList.add('slideDown');
+        }, 1500);
+        }, false);
+
+
+
+    </script>
+
   </body>
 </html>
