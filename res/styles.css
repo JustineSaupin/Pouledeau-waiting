@@ -45,9 +45,10 @@ body {
   display: none;
 }
 .card-white img {
-  height: 160px;
-  width: auto;
-  margin: auto;
+  height: 170px;
+  width: 170px;
+  margin: 8px;
+  border-radius: 50%;
 }
 
 .card1 {
